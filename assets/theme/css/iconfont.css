@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont/iconfont.eot');
+    src: url('../fonts/iconfont/iconfont.eot#iefix') format('embedded-opentype'),
+        url('../fonts/iconfont/iconfont.ttf') format('truetype'),
+        url('../fonts/iconfont/iconfont.woff') format('woff'),
+        url('../fonts/iconfont/iconfont.svg#iconfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ic {
+    font-family: 'iconfont';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.ic-play:before {
+    content: "\e90f";
+}
+.ic-discord:before {
+    content: "\e900";
+}
+.ic-instagram:before {
+    content: "\e901";
+}
+.ic-telegram:before {
+    content: "\e902";
+}
+.ic-twitter:before {
+    content: "\e903";
+}

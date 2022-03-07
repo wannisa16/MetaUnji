@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish/Chewy-Regular.eot');
+    src: url('../fonts/Mulish/Chewy-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Mulish/Chewy-Regular.woff2') format('woff2'),
+         url('../fonts/Mulish/Chewy-Regular.woff') format('woff'),
+         url('../fonts/Mulish/Chewy-Regular.ttf') format('truetype'),
+         url('../fonts/Mulish/Chewy-Regular.svg#Chewy-Regular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}

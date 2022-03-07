@@ -170,38 +170,38 @@
     <div class="title-section"><h3>Team</h3></div>
     <div class="container">
         <div class="team-lists">
-            <div class="row">
-                <div class="col-sm-4">
+            <div class="row justify-content-center">
+                <div class="col-6 col-xs-6 col-sm-4">
                     <div class="team-list text-center">
                         <img src="assets/theme/img/team/Watson.jpeg" alt="">
                         <p class="title">Watson</p>
                         <p class="desc">visionary</p>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-6 col-xs-6 col-sm-4">
                     <div class="team-list text-center">
                         <img src="assets/theme/img/team/OnePunch.jpeg" alt="">
                         <p class="title">OnePunch</p>
                         <p class="desc">focus</p>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-6 col-xs-6 col-sm-4">
                     <div class="team-list text-center">
                         <img src="assets/theme/img/team/Oki.jpeg" alt="">
                         <p class="title">Oki</p>
                         <p class="desc">dreamer</p>
                     </div>
                 </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class=" col-sm-4">
+            <!-- </div> -->
+            <!-- <div class="row justify-content-center"> -->
+                <div class="col-6 col-xs-6 col-sm-4">
                     <div class="team-list text-center">
                         <img src="assets/theme/img/team/Lovely.jpeg" alt="">
                         <p class="title">Lovely</p>
                         <p class="desc">tech ape</p>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-6 col-xs-6 col-sm-4">
                     <div class="team-list text-center">
                         <img src="assets/theme/img/team/Jackie.jpeg" alt="">
                         <p class="title">Jackie</p>
@@ -230,59 +230,57 @@
     </div>    
 </section>
 <section id="exclusive__section" class="section">
-    <div class="title-section"><h3>EXCLUSIVE MEMBERS ONLY BENEFITS</h3></div> 
+    <div class="title-section"><h3>EXCLUSIVE MEMBERS <span class="ct-br-m"></span>ONLY BENEFITS</h3></div> 
     <div class="container">
         <div class="exclusive-lists">
-            <div class="row">
-                <div class="col-sm-3">
+            <div class="row justify-content-center">
+                <div class="col-6 col-xs-6 col-sm-3">
                     <div class="exclusive-list text-center">
                         <img src="assets/theme/img/exclusive/Metaverse Icon.png" alt="">
                         <p class="title">Metaverse</p>
-                        <p class="desc">Get good karma. We’ll do <span class="ct-br-bf-m"></span>something back against global <span class="ct-br-bf-m"></span>hunger as a community.</p>
+                        <p class="desc">Get good karma. We’ll <span class="ct-br-m"></span>do <span class="ct-br-bf-m"></span>something back <span class="ct-br-m"></span>against global <span class="ct-br-bf-m"></span>hunger <span class="ct-br-m"></span>as a community.</p>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-6 col-xs-6 col-sm-3">
                     <div class="exclusive-list text-center">
                         <img src="assets/theme/img/exclusive/Games Icon.png" alt="">
                         <p class="title">Games</p>
-                        <p class="desc">Exclusive access, giveaways and <span class="ct-br-bf-m"></span>opportunities to display and trade <span class="ct-br-bf-m"></span>your art.</p>
+                        <p class="desc">Exclusive access, <span class="ct-br-m"></span>giveaways and <span class="ct-br-bf-m ct-br-m"></span>opportunities to <span class="ct-br-m"></span>display and trade <span class="ct-br-bf-m"></span>your <span class="ct-br-m"></span>art.</p>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-6 col-xs-6 col-sm-3">
                     <div class="exclusive-list text-center">
                         <img src="assets/theme/img/exclusive/Free Mint Pass Icon.png" alt="">
-                        <p class="title">Free Mint Pass</p>
-                        <p class="desc">Access to our worldwide global <span class="ct-br-bf-m"></span>tour. Maybe we’ll see you soon!</p>
+                        <p class="title">Free Mint <span class="ct-br-m"></span>Pass</p>
+                        <p class="desc">Access to our <span class="ct-br-m"></span>worldwide global <span class="ct-br-bf-m"></span>tour. <span class="ct-br-m"></span>Maybe we’ll see you <span class="ct-br-m"></span>soon!</p>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-6 col-xs-6 col-sm-3">
                     <div class="exclusive-list text-center">
                         <img src="assets/theme/img/exclusive/Commercial rights Icon.png" alt="">
-                        <p class="title">Commercial rights</p>
-                        <p class="desc">Access to private in-real party’s.</p>
+                        <p class="title">Commercial <span class="ct-br-m"></span>rights</p>
+                        <p class="desc">Access to private in-<span class="ct-br-m"></span>real party’s.</p>
                     </div>
                 </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-sm-3">
+                <div class="col-6 col-xs-6 col-sm-3">
                     <div class="exclusive-list text-center">
                         <img src="assets/theme/img/exclusive/Member-only benefits Icon.png" alt="">
-                        <p class="title">Member-only benefits</p>
-                        <p class="desc">Receive a free mint-pass for <span class="ct-br-bf-m"></span>future minting possibilities.</p>
+                        <p class="title">Member-only <span class="ct-br-m"></span>benefits</p>
+                        <p class="desc">Receive a free mint-<span class="ct-br-m"></span>pass for <span class="ct-br-bf-m"></span>future <span class="ct-br-m"></span>minting possibilities.</p>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-6 col-xs-6 col-sm-3">
                     <div class="exclusive-list text-center">
                         <img src="assets/theme/img/exclusive/Exclusive merchandise Icon.png" alt="">
-                        <p class="title">Exclusive merchandise</p>
-                        <p class="desc">Get full ownership of your <span class="ct-br-bf-m"></span>Superlative Apes NFT, including <span class="ct-br-bf-m"></span>both creative and commercial <span class="ct-br-bf-m"></span>rights.</p>
+                        <p class="title">Exclusive <span class="ct-br-m"></span>merchandise</p>
+                        <p class="desc">Get full ownership of <span class="ct-br-m"></span>your <span class="ct-br-bf-m"></span>Superlative Apes <span class="ct-br-m"></span>NFT, including <span class="ct-br-bf-m"></span>both <span class="ct-br-m"></span>creative and commercial <span class="ct-br-bf-m"></span>rights.</p>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-6 col-xs-6 col-sm-3">
                     <div class="exclusive-list text-center">
                         <img src="assets/theme/img/exclusive/Good Karma Icon.png" alt="">
                         <p class="title">Good Karma</p>
-                        <p class="desc">Holders will profit from 25% of <span class="ct-br-bf-m"></span>all fee profits made on OpenSea.</p>
+                        <p class="desc">Holders will profit <span class="ct-br-m"></span>from 25% of <span class="ct-br-bf-m"></span>all fee <span class="ct-br-m"></span>profits made on <span class="ct-br-m"></span>OpenSea.</p>
                     </div>
                 </div>
             </div>
@@ -290,9 +288,9 @@
     </div>
 </section>
 <section id="games__sention" class="section">
+    <div class="title-section"><h3>Games</h3></div> 
     <div class="container">
         <div class="games-box">
-            <div class="title-section"><h3>Games</h3></div> 
             <!-- <div class="tab">
                 <div class="control games-tab">
                     <a href="#casino" class="tab-menu active" >Casino</a>
@@ -324,7 +322,8 @@
                     <div class="two-columns">
                         <div class="column">
                             <div class="games-img">
-                                <img src="assets/theme/img/games/Golf.jpg" alt="">
+                                <img class="visible-device" src="assets/theme/img/games/Golf.jpg" alt="">
+                                <img class="visible-mobile" src="assets/theme/img/games/Golf-m.jpg" alt="">
                             </div>
                         </div>
                         <div class="column">
@@ -342,7 +341,8 @@
                     <div class="two-columns">
                         <div class="column">
                             <div class="games-img">
-                                <img src="assets/theme/img/games/Zombie.jpg" alt="">
+                                <img class="visible-device" src="assets/theme/img/games/Zombie.jpg" alt="">
+                                <img class="visible-mobile" src="assets/theme/img/games/Zombie-m.jpg" alt="">
                             </div>
                         </div>
                         <div class="column">
@@ -360,7 +360,8 @@
                     <div class="two-columns">
                         <div class="column">
                             <div class="games-img">
-                                <img src="assets/theme/img/games/Karaoke.jpg" alt="">
+                                <img class="visible-device" src="assets/theme/img/games/Karaoke.jpg" alt="">
+                                <img class="visible-mobile" src="assets/theme/img/games/Karaoke-m.jpg" alt="">
                             </div>
                         </div>
                         <div class="column">
@@ -559,7 +560,7 @@ $('.games-slide').slick({
           slidesToShow: 1,
           slidesToScroll: 1,
           dots: true,
-          centerMode: true
+          centerMode: false
         }
       }
     ]

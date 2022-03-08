@@ -25,6 +25,19 @@
     #home__section {
         .home-content {
             top: 40%;
+            .object-1{
+                max-width: 260px;
+                left: -85px;
+                top: -40%;
+            }
+            .object-2 {
+                max-width: 160px;
+                top: -49%;
+            }
+            .object-3 {
+                max-width: 192px;
+                top: -40%;
+            }
             .main-logo {
                 max-width: 231px;
             }
@@ -46,9 +59,14 @@
             }
         }
     }
+    #home-content__section {
+        .home-content__last {
+            font-size: 50px;
+        }
+    }
     .metaverse-video {
         .wrapper {
-            width: 335px;
+            width: 335px !important;
             #player {
                 width: 335px;
                 height: 224px;

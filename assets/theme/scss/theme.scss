@@ -139,6 +139,48 @@ img {
         position: absolute;
         top: 10%;
         width: 100%;
+        .object-1 {
+            position: absolute;
+            max-width: 435px;
+            left: -52px;
+            top: 95px;
+        }
+        .object-2 {
+            position: absolute;
+            right: 0;
+            max-width: 323px;
+            top: 0;
+        }
+        .object-3 {
+            position: absolute;
+            right: 0;
+            max-width: 310px;
+            top: 143px;
+            z-index: 0;
+        }
+        .object-4 {
+            max-width: 323px;
+            position: absolute;
+            left: -40px;
+        }
+        .object-5 {
+            max-width: 505px;
+            position: absolute;
+            left: -74px;
+            top: 32%;
+        }
+        .object-6 {
+            max-width: 492px;
+            position: absolute;
+            left: -27px;
+            top: 44%;
+        }
+        .object-7 {
+            max-width: 505px;
+            position: absolute;
+            right: -50px;
+            top: 56%;
+        }
         .main-logo{
             max-width: 363px;
             margin: auto;
@@ -174,6 +216,7 @@ img {
                     position: relative;
                     border: 5px solid #ED5323;
                     filter: drop-shadow(0px 2px 9px rgba(51, 51, 51, 0.4));
+                    z-index: 1;
                 }
                 &:before {
                     content: "";
@@ -184,7 +227,7 @@ img {
                     left: 0;
                     display: block;
                     background-size: cover;
-                    z-index: 0;
+                    z-index: 1;
                     bottom: -57%;
                 }
                 max-width: 400px;
@@ -204,6 +247,7 @@ img {
     }
 }
 #home-content__section {
+    position: relative;
     max-width: 934px;
     margin: auto;
     p {
@@ -221,6 +265,18 @@ img {
         line-height: 105px;
         text-transform: uppercase;
     }
+    .object-1 {
+        max-width: 360px;
+        position: absolute;
+        left: -22%;
+        bottom: -15%;
+    }
+    .object-2 {
+        max-width: 360px;
+        position: absolute;
+        right: -22%;
+        bottom: -12%;
+    }
 }
 .section {
     padding: 40px 0;
@@ -236,6 +292,7 @@ img {
 }
 
 #roadmap__section {
+    position: relative;
     .progress {
         max-width: 800px;
         height: 60px;
@@ -300,8 +357,21 @@ img {
             }
         }
     }
+    .object-1 {
+        max-width: 505px;
+        position: absolute;
+        top: 16%;
+        right: -15%;
+    }
 }
 #team__section {
+    position: relative;
+    .object-1 {
+        max-width: 505px;
+        position: absolute;
+        top: 46%;
+        left: -15%;
+    }
     .team-lists {
         width: 700px;
         margin: auto;
@@ -329,61 +399,78 @@ img {
 
     }
 }
-.metaverse-video {
-    .wrapper {
-        position: relative;
-        width: 1080px;
-        margin: auto;
-        iframe {
-            display:none;
-            border-radius: 50px;
-        }
-        #video-cover {
-            max-width: 1080px;
-            height: 100%;
-            border-radius: 50px;
-        }
-        #player {
+#metaverse__section {
+    position: relative;
+    .object-1 {
+        max-width: 505px;
+        position: absolute;
+        right: -7px;
+        top: -15%;
+    }
+    .metaverse-video {
+        .wrapper {
+            position: relative;
             width: 1080px;
-            height: 720px;
-        }
-        .play-btn {
-            position:absolute;
-            z-index:666;
-            top:50%;
-            left:50%;
-            transform:translate(-50%, -50%);
-            background-color:transparent;
-            border:0;
-            .play-long {
-                margin-top: 20px;
-                .button {
-                    text-transform: uppercase;
-                    color: #fff;
-                    background: linear-gradient(180deg, #ED5323 0%, #D83300 100%);
-                    border-radius: 10px;
-                    padding: 10px 70px;
-                    box-shadow: 0 4px 0 #7e1e00, 0 5px 5px 1px rgb(0 0 0 / 40%);
-                    -webkit-box-shadow: 0 4px 0 #7e1e00, 0 5px 5px 1px rgb(0 0 0 / 40%);
-                    &:hover {
-                        text-decoration: none;
-                    } 
+            margin: auto;
+            iframe {
+                display:none;
+                border-radius: 50px;
+            }
+            #video-cover {
+                max-width: 1080px;
+                height: 100%;
+                border-radius: 50px;
+            }
+            #player {
+                width: 1080px;
+                height: 720px;
+            }
+            .play-btn {
+                position:absolute;
+                z-index:666;
+                top:50%;
+                left:50%;
+                transform:translate(-50%, -50%);
+                background-color:transparent;
+                border:0;
+                .play-long {
+                    margin-top: 20px;
+                    .button {
+                        text-transform: uppercase;
+                        color: #fff;
+                        background: linear-gradient(180deg, #ED5323 0%, #D83300 100%);
+                        border-radius: 10px;
+                        padding: 10px 70px;
+                        box-shadow: 0 4px 0 #7e1e00, 0 5px 5px 1px rgb(0 0 0 / 40%);
+                        -webkit-box-shadow: 0 4px 0 #7e1e00, 0 5px 5px 1px rgb(0 0 0 / 40%);
+                        &:hover {
+                            text-decoration: none;
+                        } 
+                    }
                 }
             }
-        }
-        .play {
-            background: linear-gradient(180deg, #ED5323 0%, #D83300 100%);
-            border-radius: 50%;
-            padding: 16px 14px 8px 20px;
-            border: none;
-            .ic {
-                font-size: 60px;
-                color: #FCDA06;
+            .play {
+                background: linear-gradient(180deg, #ED5323 0%, #D83300 100%);
+                border-radius: 50%;
+                padding: 16px 14px 8px 20px;
+                border: none;
+                .ic {
+                    font-size: 60px;
+                    color: #FCDA06;
+                }
             }
         }
     }
 }
+
 #exclusive__section {
+    position: relative;
+    .object-1 {
+        position: absolute;
+        max-width: 505px;
+        top: 42%;
+        right: -12%;
+    }
     .exclusive-lists {
         .exclusive-list {
             padding-top: 40px;
@@ -404,6 +491,13 @@ img {
     }
 }
 #games__sention {
+    position: relative;
+    .object-1 {
+        position: absolute;
+        max-width: 505px;
+        top: -16%;
+        left: -3%;
+    }
     .games-box {
         position: relative;
         max-width: 1080px;
@@ -532,20 +626,38 @@ img {
             border-radius: 20px;
             .card-header {
                 position: relative;
+                border-bottom: none;
                 .btn {
                     color: #FCDA06;
+                    font-size: 24px;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                    &:after {
+                        position: absolute;
+                        right: 15px;
+                        top: 20px;
+                        content: "";
+                        width: 20px;
+                        height: 20px;
+                        display: block;
+                        background-image: url(../img/plus.svg);
+                        background-size: 20px;
+                        background-repeat: no-repeat;
+                        transform: rotate(-180deg);
+                    }
                 }
-                &:after {
-                    position: absolute;
-                    right: 15px;
-                    top: 20px;
-                    content: "";
-                    width: 20px;
-                    height: 20px;
-                    display: block;
-                    background-image: url(../img/plus.svg);
-                    background-size: 20px;
+                .btn:not(.collapsed) {
+                    &:after {
+                        background-image: url(../img/minus.svg);
+
+                    }
                 }
+               
+            }
+            .card-body {
+                color: #fff;
+                font-size: 16px;
             }
         }
     }

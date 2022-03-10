@@ -35,3 +35,9 @@
 .ic-twitter:before {
     content: "\e903";
 }
+.ic-menu:before {
+    content: "\e904";
+}
+.ic-close:before {
+    content: "\e905";
+}

@@ -39,6 +39,7 @@ body {
     -webkit-font-smoothing: antialiased;
     background-color: #FCDA06;
     z-index: -1;
+    width: 100%;
 }
 img {
     border: 0;
@@ -72,6 +73,12 @@ img {
     z-index: 999;
     height: 70px;
     .navbar {
+        .navbar-toggler {
+            .ic-menu {
+                font-size: 45px;
+                color: #fff;
+            }
+        }
         .main-menu {
             display: inline-flex;
             padding-top: 20px;
@@ -178,7 +185,7 @@ img {
         .object-7 {
             max-width: 505px;
             position: absolute;
-            right: -50px;
+            right: 0;
             top: 56%;
         }
         .main-logo{
@@ -361,7 +368,7 @@ img {
         max-width: 505px;
         position: absolute;
         top: 16%;
-        right: -15%;
+        right: 0;
     }
 }
 #team__section {
@@ -404,7 +411,7 @@ img {
     .object-1 {
         max-width: 505px;
         position: absolute;
-        right: -7px;
+        right: 0;
         top: -15%;
     }
     .metaverse-video {
@@ -469,7 +476,7 @@ img {
         position: absolute;
         max-width: 505px;
         top: 42%;
-        right: -12%;
+        right: 0;
     }
     .exclusive-lists {
         .exclusive-list {

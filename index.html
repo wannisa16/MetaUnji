@@ -550,28 +550,31 @@
         </div>       
         <div class="footer-menu">
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Roadmap</li>
-                <li>Team</li>
-                <li>Benefits</li>
-                <li>Games</li>
-                <li>FAQ</li>
+                <li><a href="#home__section">Home</a></li>
+                <li><a href="#home-content__section">About</a></li>
+                <li><a href="#roadmap__section">Roadmap</a></li>
+                <li><a href="#team__section">Team</a></li>
+                <li><a href="#metaverse__section">Metaverse</a></li>
+                <li><a href="#exclusive__section">Benefits</a></li>
+                <li><a href="#games__sention">Games</a></li>
+                <li><a href="#questions__section">FAQ</a></li>
             </ul>
         </div> 
         <div class="social-list">
             <ul>
                 <li>
-                    <i class="ic ic-telegram"></i>
+                    <a><i class="ic ic-telegram"></i></a>
                 </li>
                 <li>
-                    <i class="ic ic-twitter"></i>
+                    <a href=""><i class="ic ic-twitter"></i></a>
+                    
                 </li>
                 <li>
-                    <i class="ic ic-discord"></i>
+                    <a href=""><i class="ic ic-discord"></i></a>
+                    
                 </li>
                 <li>
-                    <i class="ic ic-instagram"></i>
+                    <a href=""><i class="ic ic-instagram"></i></a>
                 </li>
             </ul>
         </div>
@@ -594,15 +597,15 @@ $('.games-slide').slick({
     slidesToScroll: 1,
     arrows: true,
     dots: true,
-    autoplay: false,
-    autoplaySpeed: 5000
+    autoplay: true,
+    autoplaySpeed: 2000
 });
 $(function() {
     new WOW().init();
 });
 
 $(function() {
-  if ($(".navbar-collapse .menu").length) {
+    if ($(".navbar-collapse .menu").length) {
       $('.navbar-collapse .menu a').click(function() {
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
             $('.navbar-toggler').click()
@@ -611,7 +614,14 @@ $(function() {
               scrollTop: $($.attr(this, 'href')).offset().top - 200
           }, 1500);
       });
-  }
+    } 
+    if ($(".footer-menu ul").length) {
+      $('.footer-menu ul a').click(function() {
+          $('html, body').animate({
+              scrollTop: $($.attr(this, 'href')).offset().top - 200
+          }, 1500);
+      });
+    } 
 });
 </script>
 </html>

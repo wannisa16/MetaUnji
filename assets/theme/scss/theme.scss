@@ -648,6 +648,7 @@ img {
                             -webkit-box-shadow: 0 4px 0 #AF9700, 0 5px 5px 1px rgb(0 0 0 / 40%);
                             border: none;
                             &:disabled {
+                                color: #959595;
                                 background: linear-gradient(180deg, #8A8A8A 0%, #5B5B5B 100%);
                                 box-shadow: 0 4px 0 #767676, 0 5px 5px 1px rgb(0 0 0 / 40%);
                                 -webkit-box-shadow: 0 4px 0 #767676, 0 5px 5px 1px rgb(0 0 0 / 40%);
@@ -698,7 +699,7 @@ img {
                 .btn:not(.collapsed) {
                     &:after {
                         background-image: url(../img/minus.svg);
-
+                        top: 21px;
                     }
                 }
                
@@ -731,6 +732,13 @@ img {
                     color: #fff;
                     padding-right: 15px;
                     text-transform: uppercase;
+                    a {
+                        color: #fff;
+                        &:hover {
+                            text-decoration: none;
+                            color: #fcda06;
+                        }
+                    }
                 }
             }
         }
@@ -741,10 +749,16 @@ img {
                 list-style: none;
                 li {
                     display: inline-block;
-                    color: #fff;
                     padding-right: 15px;
                     text-transform: uppercase;
-                    font-size: 28px;
+                    a {
+                        color: #fff;
+                        font-size: 28px;
+                        &:hover {
+                            text-decoration: none;
+                            color: #fcda06;
+                        }
+                    }
                 }
             }
         }

@@ -94,6 +94,9 @@ img {
                     .nav-link {
                         color: #fff;
                         text-transform: uppercase;
+                        &:hover {
+                            color: #FCDA06;
+                        }
                     }
                 }
             }
@@ -246,6 +249,7 @@ img {
                 text-transform: uppercase;
                 text-align: center;
                 padding-top: 70px;
+                z-index: 1;
                 h2 {
                     font-size: 48px;
                 }
@@ -365,7 +369,7 @@ img {
         }
     }
     .object-1 {
-        max-width: 505px;
+        max-width: 230px;
         position: absolute;
         top: 16%;
         right: 0;
@@ -474,7 +478,7 @@ img {
     position: relative;
     .object-1 {
         position: absolute;
-        max-width: 505px;
+        max-width: 230px;
         top: 42%;
         right: 0;
     }
@@ -511,6 +515,7 @@ img {
         background: linear-gradient(180deg, #3C58A5 0%, #0F318D 100%);
         padding-top: 30px;
         border-radius: 50px;
+        margin: auto;
         &::before {
             content: "";
             width: 1001px;
@@ -550,12 +555,42 @@ img {
         }
         .games-slide {
             padding: 40px 0;
+            .slick-next {
+                right: -75px;
+                &::before {
+                    font-family: "iconfont";
+                    content: "\e907";
+                    color: #fcda06;
+                    background: linear-gradient(180deg, #BA519C 0%, #9B1675 100%);
+                    box-shadow: 0px 2px 20px rgb(51 51 51 / 40%);
+                    font-size: 45px;
+                    border-radius: 50%;
+                    opacity: 1;
+                    padding: 20px;
+                }
+            }
+            .slick-prev {
+                left: -135px;
+                &::before {
+                    font-family: "iconfont";
+                    content: "\e906";
+                    color: #fcda06;
+                    background: linear-gradient(180deg, #BA519C 0%, #9B1675 100%);
+                    box-shadow: 0px 2px 20px rgb(51 51 51 / 40%);
+                    font-size: 45px;
+                    border-radius: 50%;
+                    opacity: 1;
+                    padding: 20px;
+                }
+            }
             .slick-dots {
+                bottom: -40px;
                 li{
+                    margin: 0 7px;
                     button{
                         &::before {
                             font-size: 34px;
-                            color: #ED5323;
+                            color: #BA519C;
                             opacity: 1;
                         }
                     }
@@ -567,8 +602,8 @@ img {
                                 height: 8px;
                                 background-color: #3c58a5;
                                 border-radius: 4px;
-                                top: 7px;
-                                left: -14px;
+                                top: 6px;
+                                left: -7px;
                                 opacity: 1;
                             }
                         }
@@ -609,10 +644,16 @@ img {
                             border-radius: 10px;
                             width: 340px;
                             height: 69px;
-                            padding-top: 24px;
                             box-shadow: 0 4px 0 #AF9700, 0 5px 5px 1px rgb(0 0 0 / 40%);
                             -webkit-box-shadow: 0 4px 0 #AF9700, 0 5px 5px 1px rgb(0 0 0 / 40%);
+                            border: none;
+                            &:disabled {
+                                background: linear-gradient(180deg, #8A8A8A 0%, #5B5B5B 100%);
+                                box-shadow: 0 4px 0 #767676, 0 5px 5px 1px rgb(0 0 0 / 40%);
+                                -webkit-box-shadow: 0 4px 0 #767676, 0 5px 5px 1px rgb(0 0 0 / 40%);
+                            }
                         }
+
                     }
                 }
             }
@@ -642,8 +683,8 @@ img {
                     }
                     &:after {
                         position: absolute;
-                        right: 15px;
-                        top: 20px;
+                        right: 26px;
+                        top: 29px;
                         content: "";
                         width: 20px;
                         height: 20px;

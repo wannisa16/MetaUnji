@@ -1,5 +1,9 @@
 .pre-sale__section {
     text-align: center;
+    height: 1100px !important;
+    #vdo-bg {
+        min-height: 1000px !important;
+    }
     .home-content {
         .object-1 {
             max-width: 485px !important;
@@ -29,13 +33,13 @@
                     content: "";
                     background: url(../img/home-bg.png);
                     width: 100%;
-                    height: 100%;
+                    height: 68%;
                     position: absolute;
                     left: 0;
                     display: block;
                     background-size: cover;
                     z-index: 0;
-                    bottom: -35%;
+                    bottom: 0;
                 }
                 .mint-box {
                     background: linear-gradient(180deg, #ED5323 0%, #D83300 100%);
@@ -131,6 +135,11 @@
                                     -webkit-box-shadow: 0 4px 0 #AF9700, 0 5px 5px 1px rgb(0 0 0 / 40%);
                                     border: none;
                                     margin-left: auto;
+                                    &:hover{
+                                        background:#CEB204;
+                                        box-shadow: 0 4px 0 #AF9700, 0 5px 5px 1px rgb(0 0 0 / 40%);
+                                        -webkit-box-shadow: 0 4px 0 #AF9700, 0 5px 5px 1px rgb(0 0 0 / 40%);
+                                    }
                                 }
                             }
                         }
@@ -214,6 +223,8 @@
              }
             .home-content__head {
                 .content {
+                    z-index: 2;
+                    position: relative;
                     .title {
                         font-size: 32px;
                     }
@@ -232,6 +243,7 @@
                         .column {
                             .meta-gif {
                                 max-width: 280px;
+                                margin: auto;
                             }
                             .mint-box {
                                 max-width: 336px;

@@ -139,7 +139,7 @@
                                                         <i class="ic ic-minus"></i>
                                                     </button>
                                                 </span>
-                                                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="10" min="1" max="100">
+                                                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="2" min="1" max="100">
                                                 <span class="input-group-btn">
                                                     <button type="button" class="quantity-right-plus btn btn-number" data-type="plus" data-field="">
                                                         <i class="ic ic-plus"></i>
@@ -195,10 +195,11 @@
         });
 
         $('.quantity-left-minus').click(function(e){
+            console.log(12);
             e.preventDefault();
             let quantity = parseInt($('#quantity').val());
             if(quantity>0){
-                let mint = quantity + 1;
+                let mint = quantity - 1;
                 let total = price * mint;
                 $('#quantity').val(mint);
                 $('.num-mint').val(total);

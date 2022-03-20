@@ -286,7 +286,13 @@ img {
             padding-top: 24px;
             box-shadow: 0 4px 0 #7e1e00, 0 5px 5px 1px rgb(0 0 0 / 40%);
             -webkit-box-shadow: 0 4px 0 #7e1e00, 0 5px 5px 1px rgb(0 0 0 / 40%);
+            &:hover {
+                background: #B42B00;
+                box-shadow: 0 4px 0 #7E1E00, 0 5px 5px 1px rgb(0 0 0 / 40%);
+                -webkit-box-shadow: 0 4px 0 #7E1E00, 0 5px 5px 1px rgb(0 0 0 / 40%);
+            }
         }
+        
     }
     .home-content__last {
         margin-top: 70px;

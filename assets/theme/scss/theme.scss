@@ -266,9 +266,30 @@ img {
         font-size: 20px;
         font-weight: normal;
         color: #333333;
+        margin-bottom: 35px;
+    }
+    .mint-btn {
+        margin-top: 20px;
+        .button {
+            margin: auto;
+            display: block;
+            font-size: 28px;
+            text-align: center;
+            line-height: 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #fff;
+            background: linear-gradient(180deg, #ED5323 0%, #D83300 100%);
+            border-radius: 10px;
+            width: 340px;
+            height: 69px;
+            padding-top: 24px;
+            box-shadow: 0 4px 0 #7e1e00, 0 5px 5px 1px rgb(0 0 0 / 40%);
+            -webkit-box-shadow: 0 4px 0 #7e1e00, 0 5px 5px 1px rgb(0 0 0 / 40%);
+        }
     }
     .home-content__last {
-        margin-top: 50px;
+        margin-top: 70px;
         margin-bottom: 150px;
         text-align: center;
         color: #ED5323;

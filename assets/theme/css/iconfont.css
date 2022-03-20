@@ -47,3 +47,9 @@
 .ic-arrow-right:before {
     content: "\e907";
 }
+.ic-minus:before {
+    content: "\e908";
+}
+.ic-plus:before {
+    content: "\e909";
+}

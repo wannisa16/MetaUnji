@@ -232,6 +232,9 @@
                         max-width: 240px;
                         float: none;
                         margin: auto;
+                        &.f-left {
+                            float: none !important;
+                        }
                     }
                     .games-content {
                         .btn {

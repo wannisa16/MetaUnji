@@ -50,6 +50,9 @@ img {
 .f-left {
     float: left !important;
 }
+.f-right {
+    float: right !important;
+}
 .two-columns { 
     width: 100%; 
     display: table;
@@ -648,7 +651,6 @@ img {
                 } 
                 .games-img {
                     max-width: 450px;
-                    float: right;
                     img {
                         width: 100%; 
                         border-radius: 10px;
